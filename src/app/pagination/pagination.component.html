@@ -1,0 +1,11 @@
+<div class="pagination-wrapper">
+  <div class="pagination">
+   <span class="pagination__arrow-left" (click)="clickArrow(false)"
+                                         *ngIf="myPage > 1">
+   </span>
+   <span class="pagination__page-number">{{myPage}}</span>
+   <span class="pagination__arrow-right" (click)="clickArrow(true)"
+                                         *ngIf="myPage < pages">
+   </span>
+  </div>
+</div>
