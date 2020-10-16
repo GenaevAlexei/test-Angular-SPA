@@ -52,7 +52,7 @@ export class FiltersComponent implements OnInit {
     });
 
      // this.filters = JSON.parse(localStorage.getItem('filterState'));
-     this.filtersService.changefiltersObj(this.filters);
+     // this.filtersService.changefiltersObj(this.filters);
   }
 
   shoosePort(port){
@@ -155,6 +155,6 @@ export class FiltersComponent implements OnInit {
     }
 
     this.filtersService.changefiltersObj(this.filters);
-    localStorage.setItem('filterState', JSON.stringify(this.filters));
+    // localStorage.setItem('filterState', JSON.stringify(this.filters));
   }
 }
