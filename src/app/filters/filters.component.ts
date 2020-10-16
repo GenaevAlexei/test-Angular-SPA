@@ -51,7 +51,7 @@ export class FiltersComponent implements OnInit {
       this.shipsNameHelp = result.data.ships;
     });
 
-     this.filters = JSON.parse(localStorage.getItem('filterState'));
+     // this.filters = JSON.parse(localStorage.getItem('filterState'));
      this.filtersService.changefiltersObj(this.filters);
   }
 
