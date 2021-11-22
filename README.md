@@ -1,3 +1,4 @@
+deploy: https://genaevalexei.github.io/test-Angular-SPA/
 # AngularSPAtwo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
